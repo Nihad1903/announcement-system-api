@@ -1,0 +1,259 @@
+# ============================================
+# ENVIRONMENT & SECRETS
+# ============================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+local_settings.py
+
+# ============================================
+# PYTHON
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# ============================================
+# DJANGO
+# ============================================
+
+# Database
+*.sqlite3
+db.sqlite3
+*.db
+
+# Static files collected
+staticfiles/
+static_collected/
+
+# Media files (user uploads)
+media/
+uploads/
+
+# Django migrations (optional - uncomment if needed)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Django debug toolbar
+debug_toolbar/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# ============================================
+# VIRTUAL ENVIRONMENTS
+# ============================================
+.venv/
+venv/
+ENV/
+env/
+.env.bak/
+env.bak/
+virtualenv/
+.virtualenv/
+pythonenv*/
+Pipfile.lock
+
+# ============================================
+# IDE & EDITORS
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ============================================
+# OPERATING SYSTEM
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================
+# LOGS & TEMP FILES
+# ============================================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temp files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ============================================
+# DOCUMENTATION
+# ============================================
+docs/_build/
+site/
+
+# ============================================
+# DOCKER
+# ============================================
+# Uncomment if you don't want to track docker files
+# docker-compose.override.yml
+# .docker/
+
+# ============================================
+# JUPYTER NOTEBOOKS
+# ============================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ============================================
+# NODE.JS (if using frontend with Django)
+# ============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# ============================================
+# MISC
+# ============================================
+*.bak
+*.orig
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+cython_debug/
+
+# Profiling
+*.prof
+*.lprof
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# mkdocs documentation
+/site
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
